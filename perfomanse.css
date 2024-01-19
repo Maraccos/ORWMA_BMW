@@ -1,0 +1,52 @@
+.body2{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px){
+    
+    .icon{
+        width: 25px;
+        height: auto;
+    }
+
+    .specs2{
+        font-size: 10px;
+    }
+
+    .values2{
+        font-size: 15px;
+    }
+
+    .image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .video{
+        padding-top: 100px;
+    }
+
+    .video iframe{
+        max-height: 250px;
+        height: 200px;
+    }
+
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+}
+
+.video iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}

@@ -1,0 +1,54 @@
+.body2{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 400px){
+    
+    .icon{
+        width: 25px;
+        height: auto;
+    }
+
+    .specs2{
+        font-size: 10px;
+    }
+
+    .values2{
+        font-size: 15px;
+    }
+
+    .image img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+.info-button {
+    padding: 30px 100px 30px 100px;
+    background-color: #00528E;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.info-window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #00528E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.button img{
+    width: 50px;
+    height: auto;
+}

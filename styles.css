@@ -1,0 +1,143 @@
+@import url(https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular);
+*{
+    font-family: "BMWTypeNext Pro Regular",Arial,Helvetica,sans-serif;
+}
+
+.body{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.article1{
+    text-align: center;
+    padding: 2%;
+}
+
+
+.image img{
+    width: 60%;
+    height: auto;
+}
+
+.layout{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.layout tr{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+}
+  
+
+.specs2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.values2{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+footer{
+    background-color: transparent;
+    padding: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  
+.text{
+    opacity: 0;
+    transition: all 2s;
+}
+  
+.show{
+    opacity: 1;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.navbar img{
+    width: 60px;
+    height: auto;
+    float: left;
+}
+
+.navbar li a{
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.navigation li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #00528E
+}
+
+.navigation li .clicked a{
+    color: #00528E;
+}
+
+
+.background{
+    background-image: url("images/Perfomanse.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.logoo img{
+    width: 60px;
+    height: auto;
+}
+  
+.bgColor{
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+  
+
+
+
+

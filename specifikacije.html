@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="specifikacije.css">
+    <script defer src="script.js"></script>
+    <title>Specifikacije</title>
+</head>
+<body class="body">
+    <header>
+        <div class="background">
+            <nav id="navbar" class="navbar">
+                <div class="logoo">
+                    <a href="index.html">
+                        <img class="logo" src="images/BMW logo 2.webp">
+                    </a>
+                </div>
+                <ul class="navigation">
+                    <li><div class="clicked"><a href="specifikacije.html">SPECIFIKACIJE</a></div></li>
+                    <li><a href="perfomanse.html">PERFOMANSE</a></li>
+                    <li><a href="dizajn.html">DIZAJN</a></li>  
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section2">
+        <article class="article1">
+            <div class="layout">
+            <table>
+                <tr>
+                    <td class="text">
+                        <img class="icon" src="images/gearbox.png">
+                        <p><div class="specs2">Vrsta prijenosa</div></p>
+                        <p><div class="values2">Automatik</div></p>
+                    </td>
+                    <td class="text">
+                        <img class="icon" src="images/gasoline-pump.png">
+                        <p><div class="specs2">Tip goriva</div></p>
+                        <p><div class="values2">Benzin</div></p>
+                    </td>
+                    <td class="text">
+                        <img class="icon" src="images/distance.png">
+                        <p><div class="specs2">Doseg</div></p>
+                        <p><div class="values2">1030 km</div></p>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <div class="image">
+                <img class="window" src="images/bmw window.jpg">
+            </div>
+            <div class="layout">
+                    <table>
+                      <tr>
+                            <td class="text">
+                                <img class="icon" src="images/gearbox.png">
+                                <p><div class="specs2">Vrsta prijenosa</div></p>
+                                <p><div class="values2">Automatik</div></p>
+                            </td>
+                            <td class="text">
+                                <img class="icon" src="images/gasoline-pump.png">
+                                <p><div class="specs2">Tip goriva</div></p>
+                                <p><div class="values2">Benzin</div></p>
+                            </td>
+                            <td class="text">
+                                <img class="icon" src="images/distance.png">
+                                <p><div class="specs2">Doseg</div></p>
+                                <p><div class="values2">1030 km</div></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text">
+                                <img class="icon" src="images/settings.png">
+                                <p><div class="specs2">Broj stupnjeva prijenosa</div></p>
+                                <p><div class="values2">8</div></p>
+                            </td>
+                            <td class="text">
+                                <img class="icon" src="images/car-seat.png">
+                                <p><div class="specs2">Broj sjedala</div></p>
+                                <p><div class="values2">5</div></p>
+                            </td>
+                            <td class="text">
+                                <img class="icon" src="images/gas.png">
+                                <p><div class="specs2">Potrošnja</div></p>
+                                <p><div class="values2">6.6 L/100 km</div></p>
+                            </td>
+                      </tr>
+                  </table>
+            </div>
+            <div class="button">
+                <button class="info-button" onclick="openInfoWindow()">Dodane specifikacije</button>
+                <div class="info-window" id="infoWindow">
+                    <img src="images/BMW logo 2.webp">
+                    <p>INFO INFO INFO INFO</p>
+                    <button onclick="closeInfoWindow()">Zatvori</button>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

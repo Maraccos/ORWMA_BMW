@@ -1,0 +1,98 @@
+.mainbody{
+    background-image: url("images/main2fade2.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundmain{
+    background-image: url("images/main1fade2.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 400px){
+    .specs td p{
+        font-size: 0.2em;
+    }
+    
+    .info .values p{
+        font-size: 20px;
+    }
+
+    section .info{
+        margin-left: 1%;
+    }
+
+    .specs td{
+        padding-right: 50px;
+    }
+    
+}
+
+section{
+    position: relative;
+    min-height: 70vh;
+}
+
+section{
+    position: relative;
+    min-height: 70vh;
+}
+
+section .title{
+    color: #FFFFFF;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 2em;
+}
+
+section .info{
+    margin-left: 10%;
+}
+
+.specs td{
+    color: #ffffffa1;
+
+}
+
+.info{
+    width: 40%;
+    height: 40%;
+    display: grid;
+    align-items: center;
+}
+
+.specs td p{
+    font-size: 1em;
+}
+
+.values td p{
+    color:#FFFFFF;
+    font-size: 2em;
+}
+
+.bottomlogo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.bottomlogo img{
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.bottomlogo .big img{
+    height: 60px;
+    width: auto;
+}
