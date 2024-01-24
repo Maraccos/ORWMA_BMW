@@ -1,12 +1,10 @@
 @import url(https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular);
 *{
     font-family: "BMWTypeNext Pro Regular",Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.body{
-    background-color: #ffffff;
-    margin: 0;
-}
 
 .article1{
     text-align: center;
@@ -51,7 +49,7 @@
 
 footer{
     background-color: transparent;
-    padding: 30px;
+    padding: 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -59,7 +57,24 @@ footer{
     align-items: center;
 }
 
-  
+.bottomlogo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.bottomlogo img{
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.bottomlogo .big img{
+    height: 50px;
+    width: auto;
+}
+
 .text{
     opacity: 0;
     transition: all 2s;
@@ -70,29 +85,27 @@ footer{
 }
 
 .navbar {
+    z-index: 888;
     position: fixed;
     width: 100%;
     overflow: hidden;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items: center;
     padding: 1%;
 }
 
-.navbar img{
-    width: 60px;
+.logoo a img{
+    width: 50px;
     height: auto;
     float: left;
 }
 
 .navbar li a{
+    font-size: 0.8em;
     font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.logo{
-    cursor: pointer;
 }
 
 .navigation{
@@ -133,10 +146,26 @@ footer{
   
 .bgColor{
     transition: 1s;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: black;
     color: white;
 }
-  
+
+.left-info{
+    text-align: left;
+}
+
+.right-info{
+    text-align: right;
+}
+
+@media screen and (max-width: 400px){
+    
+    
+    .navigation li{
+        display: inline-block;
+        padding: 0 10px;
+    }
+}
 
 
 

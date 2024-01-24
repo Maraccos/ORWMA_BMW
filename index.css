@@ -1,3 +1,6 @@
+
+
+
 .mainbody{
     background-image: url("images/main2fade2.jpg");
     position: relative;
@@ -18,44 +21,24 @@
     min-height: 100vh;
 }
 
-@media screen and (max-width: 400px){
-    .specs td p{
-        font-size: 0.2em;
-    }
-    
-    .info .values p{
-        font-size: 20px;
-    }
-
-    section .info{
-        margin-left: 1%;
-    }
-
-    .specs td{
-        padding-right: 50px;
-    }
-    
-}
 
 section{
     position: relative;
-    min-height: 70vh;
-}
-
-section{
-    position: relative;
-    min-height: 70vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 section .title{
+    position: absolute;
+    bottom: 22%;
+    left: auto;
     color: #FFFFFF;
-    margin-top: 10%;
-    margin-left: 10%;
     font-size: 2em;
-}
-
-section .info{
-    margin-left: 10%;
 }
 
 .specs td{
@@ -64,10 +47,15 @@ section .info{
 }
 
 .info{
-    width: 40%;
-    height: 40%;
+    position: absolute;
+    bottom: 1%;
+    width: 60vw;
+    height: 20%;
     display: grid;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
 }
 
 .specs td p{
@@ -79,20 +67,16 @@ section .info{
     font-size: 2em;
 }
 
-.bottomlogo{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
+@media screen and (max-width: 400px){
+    .specs td p{
+        font-size: 1em;
+    }
+    
+    .info .values p{
+        font-size: 20px;
+    }
 
-.bottomlogo img{
-    height: 30px;
-    width: auto;
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.bottomlogo .big img{
-    height: 60px;
-    width: auto;
+    .info{
+        width: 90vw;
+    }
 }

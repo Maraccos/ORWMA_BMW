@@ -3,6 +3,25 @@
     margin: 0;
 }
 
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+}
+
+.video iframe{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
 @media screen and (max-width: 400px){
     
     .icon{
@@ -24,29 +43,20 @@
     }
 
     .video{
-        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 50vh;
     }
 
     .video iframe{
-        max-height: 250px;
-        height: 200px;
+        position: absolute;
+        width: 90%;
+        height: 50%;
     }
 
-}
-
-
-.video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 8%;
-    width: 100%;
-    height: 100%;
-    min-height: 50vh;
-}
-
-.video iframe{
-    position: absolute;
-    width: 90%;
-    height: 90%;
 }

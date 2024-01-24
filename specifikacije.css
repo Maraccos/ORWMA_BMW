@@ -4,28 +4,6 @@
 }
 
 
-@media screen and (max-width: 400px){
-    
-    .icon{
-        width: 25px;
-        height: auto;
-    }
-
-    .specs2{
-        font-size: 10px;
-    }
-
-    .values2{
-        font-size: 15px;
-    }
-
-    .image img{
-        width: 80%;
-        height: auto;
-    }
-
-}
-
 .info-button {
     padding: 30px 100px 30px 100px;
     background-color: #00528E;
@@ -51,4 +29,88 @@
 .button img{
     width: 50px;
     height: auto;
+}
+
+.image-slider{
+    min-height: 30em;
+    height: 50vh;
+    width: auto;
+    position: relative;
+    background-image: url("images/specifikacije1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.image-slider *{
+    box-sizing: border-box;
+}
+
+.arrow-left img, .arrow-right img{
+    position: absolute;
+    padding: 0.5% 0 0.5% 0;
+    top: 40%;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow-left img:hover, .arrow-right img:hover{
+    background: rgba(0, 82, 142, 0.7);
+}
+
+.arrow-left img{
+    left: 1em;
+}
+
+.arrow-right img{
+    right: 1em;
+}
+
+.image-fade{
+    animation: imgFade 0.5s ease-in-out;
+}
+
+@keyframes imgFade{
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media screen and (max-width: 400px){
+    
+    .icon{
+        width: 25px;
+        height: auto;
+    }
+
+    .specs2{
+        font-size: 10px;
+    }
+
+    .values2{
+        font-size: 15px;
+    }
+
+    .image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .image-slider{
+        min-height: 20vh;
+        height: 30vh;
+    }
+
+    .arrow-left img, .arrow-right img{
+        padding: 0.5% 0 0.5% 0;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
 }

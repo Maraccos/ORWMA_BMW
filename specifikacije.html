@@ -49,8 +49,13 @@
                 </tr>
             </table>
             </div>
-            <div class="image">
-                <img class="window" src="images/bmw window.jpg">
+            <div class="image-slider">
+                <div class="arrow-left">
+                    <img src="images/left-arrow.png"></i>
+                </div>
+                <div class="arrow-right">
+                    <img src="images/right-arrow.png"></i>
+                </div>
             </div>
             <div class="layout">
                     <table>
@@ -94,7 +99,26 @@
                 <button class="info-button" onclick="openInfoWindow()">Dodane specifikacije</button>
                 <div class="info-window" id="infoWindow">
                     <img src="images/BMW logo 2.webp">
-                    <p>INFO INFO INFO INFO</p>
+                    <table>
+                        <td class="left-info">
+                            <p>Međuosovinski razmak</p>
+                            <p>Prednja osovina</p>
+                            <p>Stražnja osovina</p>
+                            <p>Razmak od tla</p>
+                            <p>Kapacitet spremnika goriva</p>
+                            <p>Emisije CO2</p>
+                            <p>Kapacitet prtljažnika</p>
+                        </td>
+                        <td class="right-info">
+                            <p>297.5 cm</p>
+                            <p>160.5 cm</p>
+                            <p>163.0 cm</p>
+                            <p>13.9cm</p>
+                            <p>68 L</p>
+                            <p>152 g/km</p>
+                            <p>530 L</p>
+                        </td>
+                    </table>
                     <button onclick="closeInfoWindow()">Zatvori</button>
                 </div>
             </div>
